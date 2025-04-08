@@ -24,7 +24,7 @@ const [nomeUsuario, setNomeUsuario ] = useState('');
     {formularioEstaVisivel && (
       <Formulario />
     )}
-    <button onClick={() => setFormularioEstaVisivel(!formularioEstaVisivel)} type="button">toggle form</button>
+    {/* <button onClick={() => setFormularioEstaVisivel(!formularioEstaVisivel)} type="button">toggle form</button> */}
       {/* <h1>Olá, {pessoa.nome}</h1>
       <h2>Subtitulo</h2>
       {estaDeDia ? 'Bom dia!' : "Boa tarde"} */}
