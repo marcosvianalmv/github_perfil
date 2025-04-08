@@ -5,7 +5,7 @@ import Formulario from "./components/Formulario";
 import ReposList from "./components/ReposList";
 
 function App() {
-const [formularioEstaVisivel, setFormularioEstaVisivel] = useState(true);
+const [formularioEstaVisivel, setFormularioEstaVisivel] = useState(false);
 const [nomeUsuario, setNomeUsuario ] = useState('');
 
   return (
